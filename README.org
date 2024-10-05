@@ -2,9 +2,9 @@
 A Plymouth Boot Splash Generator
 [[./plyppy.gif]]
 * Actual Example
-Source GIF
+- Source GIF
 [[./source.gif]]
-Generated Boot Splash
+- Generated Boot Splash 
 [[./output.gif]]
 * Features
 - ✨ Beautiful CLI interface made with [[https://github.com/Textualize/rich][rich]]
