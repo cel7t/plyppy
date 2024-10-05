@@ -9,7 +9,7 @@ authors = [
   { name="Sarthak Shah", email="shahsarthakw@gmail.com" },
 ]
 description = "Plyppy: A Plymouth Boot Splash Generator"
-readme = "README.org"
+readme = "README.txt"
 requires-python = ">=3.8"
 license = {text = "GPL-3.0-or-later"}
 dependencies = [
