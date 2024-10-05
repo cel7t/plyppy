@@ -31,7 +31,8 @@ You can also install the package from ~pip~ by running
 #+END_SRC
 * Usage
 Before using the program, ensure that you have Plymouth installed and set up properly.
-To use the program, simply run ~plyppy~.
+To use the program, simply run ~plyppy~. 
+*Please note that the program might take a few seconds to initialize on the first run*.
 * License
 This program is licensed under the GPLv3 license. Refer to the [[file:LICENSE][LICENSE]] file for more details.
 © 2024 Sarthak Shah (shahsarthakw@gmail.com)
