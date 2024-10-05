@@ -1,0 +1,37 @@
+#+TITLE:Plyppy
+A Plymouth Boot Splash Generator
+[[./plyppy.gif]]
+* Actual Example
+Source GIF
+[[./source.gif]]
+Generated Boot Splash
+[[./output.gif]]
+* Features
+- ✨ Beautiful CLI interface made with [[https://github.com/Textualize/rich][rich]]
+- ✂️ Removes backgrounds with [[https://github.com/danielgatis/rembg][rembg]] for cleaner splash screens
+- 📷 Supports images, GIFs and videos
+- 🎨 Supports color customization
+- 💾 Automatically installs the boot splash
+- 🔒 Comes with a password prompt
+* Installation
+** From Source
+First, clone the repository and ~cd~ into the directory
+#+BEGIN_SRC shell
+  git clone https://github.com/cel7t/plyppy.git
+  cd plyppy
+#+END_SRC
+Next, install the package with ~pip~
+#+BEGIN_SRC shell
+  pip install .
+#+END_SRC
+** From pip
+You can also install the package from ~pip~ by running
+#+BEGIN_SRC shell
+  pip install plyppy
+#+END_SRC
+* Usage
+Before using the program, ensure that you have Plymouth installed and set up properly.
+To use the program, simply run ~plyppy~.
+* License
+This program is licensed under the GPLv3 license. Refer to the [[file:LICENSE][LICENSE]] file for more details.
+© 2024 Sarthak Shah (shahsarthakw@gmail.com)

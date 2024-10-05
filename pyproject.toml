@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plyppy"
+version = "0.0.1"
+authors = [
+  { name="Sarthak Shah", email="shahsarthakw@gmail.com" },
+]
+description = "Plyppy: A Plymouth Boot Splash Generator"
+readme = "README.org"
+requires-python = ">=3.8"
+license = {text = "GPL-3.0-or-later"}
+dependencies = [
+  "pillow",
+  "opencv-python",
+  "rembg",
+  "rich",
+  "importlib",
+]
+
+[tool.setuptools.package-data]
+"plyppy.assets" = ["*.png"]
+
+[project.scripts]
+plyppy = "plyppy.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/cel7t/plyppy"
+Issues = "https://github.com/cel7t/plyppy/issues"
